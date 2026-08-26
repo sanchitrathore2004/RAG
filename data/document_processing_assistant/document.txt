@@ -1,0 +1,4 @@
+
+To refresh your OAuth token, send a POST request to `/auth/token` with grant_type, refresh_token, client_id and client_secret. For CI/CD setup, ensure the .env file is populated with valid API keys. Build steps should be defined in `.github/workflows` dir. New engineers should complete the onboarding checklist within their first week including dev environment setup.
+
+    
